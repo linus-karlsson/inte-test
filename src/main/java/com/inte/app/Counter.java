@@ -1,10 +1,17 @@
 package com.inte.app;
 
 public class Counter {
-    public static void main(String[] args) {
-        int i = 0;
-        System.out.println(i);
-        i++;
-        System.out.println(i);
+    private int number;
+
+    public Counter(int number) {
+        this.number = number;
+    }
+
+    public void increaseNumber() {
+        number++;
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
