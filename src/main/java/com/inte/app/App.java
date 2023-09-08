@@ -16,6 +16,8 @@ public class App
 
 
         System.out.println( "Testar!" );
+
+        System.out.println( "asfasfas!" );
     }
 }
 
